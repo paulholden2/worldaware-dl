@@ -13,8 +13,9 @@ const context = {
 
 const options = {
   spRootFolder: process.env.SHAREPOINT_ROOT,
+  dlRootFolder: '\\\\stria-prod1\\CID01570 - WorldAware\\JID01215 - CaaS\\SharePoint Files',
   recursive: true,
-  folderStructureOnly: true,
+  folderStructureOnly: false,
   ignoreEmptyFolders: false
 };
 
@@ -23,4 +24,3 @@ sppull(context, options).then(() => {
 }).catch(err => {
   console.log(err);
 });
-
