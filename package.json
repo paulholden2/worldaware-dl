@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.6.2",
     "dotenv": "^7.0.0",
     "sppull": "^2.3.3"
   }
